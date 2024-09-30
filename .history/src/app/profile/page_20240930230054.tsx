@@ -14,17 +14,8 @@ const poppins = Poppins({
     weight: ["100", "200", "300", "400", "500", "600", "700"],
   });
 
-  interface CircularProgressWithLabelProps {
-    percentage: number; 
-    color?: string; 
-    percentageText?: string;
-  }
-  
-  const CircularProgressWithLabel: React.FC<CircularProgressWithLabelProps> = ({
-    percentage,
-    color,
-    percentageText,
-  }) => {
+
+  const CircularProgressWithLabel = ({ percentage, color , percentageText}) => {
     const radius = 120; // Radius of the circle
     const strokeWidth = 30; // Stroke width
     const normalizedRadius = radius - strokeWidth * 0.5;
@@ -247,7 +238,7 @@ const profile = () => {
           <div className="v3"></div>
           </div>
           <div style={{display:"flex" , justifyContent:"center" , alignItems:"center" ,  flexDirection:"column"}}>
-          <CircularProgressWithLabel percentage={100} color={"#E25822"} percentageText={"5"}/>
+          <CircularProgressWithLabel percentage={100} color={"#E25822"} percentageText={5}/>
           <p style={{fontSize:"30px", color:"#094546"}}>Current Streak</p>
           </div>
         </div>

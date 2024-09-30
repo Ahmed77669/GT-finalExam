@@ -2,6 +2,7 @@ import React from 'react';
 import Image from "next/image";
 import footerLogo from "@/public/footer-logo.png";
 import { Inter } from "@next/font/google";
+import { faFacebookF, faInstagram, faLinkedinIn, faTiktok } from '@fortawesome/free-brands-svg-icons'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import  linkdin  from "@/public/linkdin.png";
 import  facebook  from "@/public/Facebook.png";
