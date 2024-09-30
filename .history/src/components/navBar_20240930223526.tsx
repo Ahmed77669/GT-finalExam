@@ -2,7 +2,7 @@
 import React from "react";
 import GT_logo from "@/public/Component 6.png";
 import notifications from "@/public/icon (1).png";
-import message from "@/public/455.png";
+import message from "@/public/icon (2).png";
 import Link from "next/link";
 import { Inter } from "@next/font/google";
 import Image from "next/image";
