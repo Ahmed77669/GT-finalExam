@@ -116,7 +116,7 @@ const ResultPage = () => {
       const secondsValue = myTime ? parseFloat(myTime) : "0"; // Default value for seconds
       setSeconds(secondsValue); // Set the seconds state
     }
-  }, []); // This runs after the component mounts
+  }, []);
 
   const handleButtonClick = () => {
     if (myNumber !== 3) {
@@ -186,8 +186,8 @@ const ResultPage = () => {
             {myNumber !== 3 ? 'Go Back' : 'Next'}
           </button>
         </div>
-        <Footer />
       </section>
+      <Footer />
     </motion.div>
   );
 };
