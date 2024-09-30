@@ -72,14 +72,11 @@ const exams = () => {
       setTime(30);
     }
   }, [time]);
-
   const navigateToPage2 = () => {
-    if (typeof window !== 'undefined') {
-        localStorage.setItem('myData', String(results));
-        localStorage.setItem('myTime', String(seconds));
-        router.push('/exams-languages/exams-level/exams/result');
-    }
-};
+    localStorage.setItem('myData', String(results));
+    localStorage.setItem('myTime', String(seconds));
+    router.push('/exams-languages/exams-level/exams/result');
+  };
   return (
     <section className={poppins.className}>
         <div className={`head ${poppins.className}`} style={{ fontWeight: "400", marginBottom: "20px", color: "#006565",fontSize:"58px" }}>Exam 1</div>
