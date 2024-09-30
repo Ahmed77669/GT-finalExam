@@ -1,7 +1,7 @@
 
 'use client'
 import React, { useState } from 'react'
-import { Inter } from "@next/font/google";
+import { Inter } from "next/font/google";
 import Image from 'next/image';
 import computer from '@/public/computer.png'
 import { url } from 'inspector';

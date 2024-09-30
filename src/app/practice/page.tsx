@@ -1,5 +1,5 @@
 import React from 'react'
-import { Poppins } from "@next/font/google";
+import { Poppins } from "next/font/google";
 import { StarBorder } from '@mui/icons-material';
 import Link from 'next/link';
 

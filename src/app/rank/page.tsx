@@ -3,7 +3,7 @@ import React from 'react'
 import monthStar from "@/public/party.png"
 import { url } from 'inspector'
 import Image from 'next/image'
-import { Poppins } from "@next/font/google";
+import { Poppins } from "next/font/google";
 import Avatar from '@/public/Avatar.png'
 import Footer from '@/components/footer';
 import { motion } from "framer-motion";

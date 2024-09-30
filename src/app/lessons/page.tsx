@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import { Poppins } from "@next/font/google";
+import { Poppins } from "next/font/google";
 import { useRouter } from 'next/navigation';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar } from '@fortawesome/free-solid-svg-icons';

@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Avatar from "@/public/Avatar.png";
 import points from "@/public/GT.png"
-import { Poppins } from "@next/font/google";
+import { Poppins } from "next/font/google";
 import heart from "@/public/Vector.png";
 import Link from "next/link";
 import { useRouter } from "next/navigation";

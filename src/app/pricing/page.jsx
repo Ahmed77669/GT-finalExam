@@ -1,6 +1,6 @@
 'use client'
 import React from 'react';
-import { Poppins } from '@next/font/google';
+import { Poppins } from "next/font/google";
 import Footer from '@/components/footer';
 import { motion } from 'framer-motion';
 

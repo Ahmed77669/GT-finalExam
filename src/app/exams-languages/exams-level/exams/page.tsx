@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import { Poppins } from "@next/font/google";
+import { Poppins } from "next/font/google";
 import Image from 'next/image';
 import heart from "@/public/Vector.png"
 import clock from "@/public/clock.png"

@@ -3,7 +3,7 @@ import React from "react";
 import GT_logo from "@/public/Component 6.png";
 
 import Link from "next/link";
-import { Inter } from "@next/font/google";
+import { Inter } from "next/font/google";
 import Image from "next/image";
 
 import { useRouter } from "next/navigation";

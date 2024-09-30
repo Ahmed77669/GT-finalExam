@@ -1,5 +1,5 @@
 'use client';
-import { Poppins } from '@next/font/google';
+import { Poppins } from "next/font/google";
 import { useState, useEffect } from 'react';
 import React from 'react';
 import Star from '@mui/icons-material/Star';

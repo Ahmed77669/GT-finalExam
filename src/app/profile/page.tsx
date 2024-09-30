@@ -1,6 +1,6 @@
 'use client'
 import React, { use, useEffect, useState } from 'react'
-import { Poppins } from "@next/font/google";
+import { Poppins } from "next/font/google";
 import Image, { StaticImageData } from "next/image";
 import Avatar from "@/public/Avatar.png";
 import points from "@/public/GT.png"

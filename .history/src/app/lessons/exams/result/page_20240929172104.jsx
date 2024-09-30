@@ -100,21 +100,12 @@ const ResultPage = () => {
   
   const router = useRouter();
   const [parsedResults, setParsedResults] = useState(null);
-  const [result, setResult] = useState(0); // Initialize result state
-
-  useEffect(() => {
-    
-    if (typeof window !== 'undefined') {
-      const myData = localStorage.getItem('myData');
-      const myTime = localStorage.getItem('myTime');
-
-      const myNumber = myData ? parseFloat(myData) : 0;
-      const seconds = myTime ? parseFloat(myTime) : 0;
-
-      const calculatedResult = (myNumber / 3) * 100;
-      setResult(calculatedResult); 
-    }
-  }, []); 
+  const myData = localStorage.getItem('myData');
+  const myTime = localStorage.getItem('myTime');
+  const myNumber = myData ? parseFloat(myData) : 0; 
+  const seconds = myData ? parseFloat(myTime) : 0; 
+  const result = myNumber/3 *100
+  
 
   return (
     <motion.div variants={pageVariants} initial="hidden" animate="visible">
